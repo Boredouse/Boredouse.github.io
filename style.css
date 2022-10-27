@@ -1,0 +1,132 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 0px 0px 0px 0px;
+  background:white;
+}
+
+
+/* Nav section */ 
+
+
+#sidenav{
+  justify-content: space-evenly;
+  background-color: transparent;
+  padding-top: 20px;
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  top:0;
+  left:0;
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596); */
+  background:#1AA36D; 
+  overflow:hidden;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  
+}
+
+.menu-bar{
+  padding: 10px 10px 10px 10px;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+  margin-bottom: 40px;
+  color:white;
+
+}
+
+.menu-bar:hover {
+  cursor: pointer;
+}
+
+#image-me{
+  height:20%;
+  width:80%;
+  border-radius: 7%;
+  border: 2px solid rgb(240, 235, 235);
+  margin-bottom: 40px;
+}
+
+#image-text{
+ font-size: 20px;
+}
+
+.junior{
+  font-size: 8px;
+  margin-bottom: 40px;
+}
+/* scroll bar */ 
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(209, 209, 209); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:rgb(185, 185, 185); 
+} 
+
+/* Main section */
+
+.Main-body{
+  margin-left: 10%;
+  background-color: transparent;
+  height: 200vh;
+  padding-left: 11%;
+  padding-right: 11%;
+  
+}
+
+.Main-body > * {
+  margin-top: 11%;
+  border: 2px solid black;
+  height: 40%;
+}
+
+#Home-Page {
+  
+ 
+}
+
+#About-me {
+  
+}
+
+#Projects {
+  
+  
+}
+
+#Education {
+  
+  
+}
+
+#Work-Experience {
+ 
+ 
+}
+
+
+
+@media screen and (max-width: 1280px ),
+       screen and (max-height: 800px) {
+   
+  #sidenav{
+    position: absolute;
+    left: -15%;
+  }
+  .Main-body{
+    margin-left: 0%;
+  }
+}
