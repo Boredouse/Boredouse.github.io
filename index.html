@@ -7,67 +7,102 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Gitweb.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap" rel="stylesheet">
   <title>Sophie Xiang</title>
   <script src = "GitWeb.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body>  
-  <img src="Web_software_developer.gif" alt="Websoftware-developer.gif" id="hero"> 
+  <!--<img src="/Media/Web_software_developer.gif" alt="Websoftware-developer.gif" id="hero"> -->
  
   
   <div id = sidenav>
-      <a href="#Home-Page" class="menu-bar"><i class="fa fa-home"></i></a>  
-      <a href="#About-me" class="menu-bar"><i class="fa fa-qq"></i></a> 
-      <a href="#Projects" class="menu-bar"><i class="fa fa-code"></i></a> 
-      <a href="#Education" class="menu-bar"><i class="fa fa-graduation-cap"></i></a> 
-      <a href="#Contact" class="menu-bar" id ="Empty-section"><i class = "fa fa-pencil-square-o"></i></a> 
-      
-      
+        <div id = "Empty"></div>
+        <a href="#Home-Page" class="menu-icons"><i class="fa fa-home"></i></a>  
+        <a href="#About-me" class="menu-icons"><i class="fa fa-qq"></i></a> 
+        <a href="#Projects" class="menu-icons"><i class="fa fa-code"></i></a>  
+        <a href="#Contact" class="menu-icons"><i class = "fa fa-pencil-square-o"></i></a> 
       
       <div class = "URL-Box">
         <a href ="https://www.linkedin.com/in/sophie-xiang-8aabb31b2/ " class="Url-links" id = "Linkedin" target=”_blank”>
-          <img src="LI-In-Bug2.png" alt="Linkedinlogo" >
+          <img src="Media/LI_In_Bug2.png" alt="Linkedinlogo" >
         </a>
         <a href ="https://github.com/Boredouse" class ="Url-links" target=”_blank”>
-          <img src="GitHub_Mark_Light_32px.png" alt="GitHub_Mark_Light_32px.png" >
+          <img src="Media/GitHub_Mark_Light_32px.png" alt="GitHub_Mark_Light_32px.png" >
         </a>
       </div>
   </div>
 
 
   <div class="Main-body">
-    <div class="blink" id="Home-Page">Hello, Sophie here!</div>
-
-
-    <div id="About-me">
-      <p>
-      Hello, my name is Sophie Xiang. 
-     </p>
-  </div>
-      
-
-    <div id="Projects-Container">
-      <a href="" class="Project-Items">Study Clock</a>
-      <a href="" class="Project-Items">Coming Soon!</a>
-      <a href="" class="Project-Items">Coming Soon!</a>
-      <a href="" class="Project-Items">Coming Soon!</a>
-      <a href="" class="Project-Items">Coming Soon!</a>
-      <a href="" class="Project-Items">Coming Soon!</a>
-      <a href="" class="Project-Items">Coming Soon!</a>
-      <a href="" class="Project-Items">Coming Soon!</a>
-      <a href="" class="Project-Items">Coming Soon!</a>
-      
+    <div class="blink" id="Home-Page">
+      <h1 id ="main-title">Sophie <span id ="last-name">Xiang</span></h1>
+      <p class = "subtitle"> Loving everything computer... except driver updates</p>
     </div>
 
 
-    <div id="Contact">Get In Touch</div>
+    <div id="About-me">
+      <!--<img src="#" alt="#" id ="Photo">-->
+      <span class = "title"><h1>About Me</h1></span>
+      <p class = "textc">
+      </br>
+      </br>
+      Hi, Sophie here! 
+      <br><br>
+      After finishing my degree in Economics and Politics last year, I began working my way through the food industry various different levels.<br>
+      As much as I loved the intense environment and ability to optimize routines and operations, I missed having a new differntiating task to solve.
+      <br><br>
+      This led me to begin my road into development.
+      <br><br>
+      Recently I have completed a 12-week intensive Software Development Bootcamp course providing me with the fundamentals of Front and Back-end developemnt.  
+      
+      It has been a wonderful journey and I look to further develop my skills to becoming a back-end python developer.
+      <br><br><br>
+      I thought I could escape the curly braces, but hello there Django :)
+
+     </p>
+
+  </div>
+      
+  
+  
+  
+  <div id="Projects-Container">
+    <span id = "Projects" class = "title" ><h1>Projects</h1></span>
+    <a href="https://sophiex.uk/Digital-Clock/" class="Project-Items"><img src = "DigitalClock.png" alt =""> </a>
+    <a href="" class="Project-Items"></a>
+    <p>Please do Check out my Github for all code and annotations.</p>
+    <a href="" class="Project-Items"> </a>
+    <a href="" class="Project-Items"></a>
     
-    
-   <!--<div id="Work-Experience">Work Experience</div>--> 
+  </div>
 
 
+  <div id="Contact">
+     <span class = "title"><h1>Get In Touch!</h1></span>
+      <br><br><br>
+     <p>
+      For any code related interests, please check out my Github and  <br>
+      If you'd like to pop by for a chat, please do contact me through my Linkedin or email! <br><br>
+      <a href = "mailto: sophiexiang1@gmail.com" class = "subtitle2">sophiexiang1@gmail.com</a>
+
+     </p>
+    
+
+
+   <!-- <form onsubmit = "SendEmail(); reset(); return false">      
+      <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
+      <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+      <textarea name="text" class="feedback-input" placeholder=":)"></textarea>
+      <input type="submit" value="SUBMIT"/>
+    </form>
+    </form>
+  -->
+
+</div>
   </div>
 
 

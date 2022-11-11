@@ -1,0 +1,277 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif !important;
+  padding: 0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+  background:#fffdf0;
+  overflow-x: hidden;
+  line-height: 200%;
+}
+
+
+/* Nav section */ 
+
+
+#sidenav{
+  justify-content: space-evenly;
+  background-color: transparent;
+  padding-top: 20px;
+  height: 100%;
+  width: 5%;
+  position: fixed;
+  top:0;
+  left:0;
+  background:#f7c439; /* #f1ca5f*/
+  overflow:hidden;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  z-index: 0;
+  /* transition: 1s;
+  transform: translateX(-100%); /* Use 100% */
+  
+}
+
+.menu-icons{
+  margin-top: 60px;
+  padding: 10px 10px 10px 10px;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+  color:white;
+  transition: transform .2s;
+
+}
+#Empty{
+  padding-top:70px;
+}
+.menu-icons:hover {
+  cursor: pointer;
+  transform:scale(1.2);
+}
+
+#first{
+  margin-top: 100px;
+}
+
+.URL-Box {
+  padding-top: 300px;
+  padding-bottom: 0px;
+}
+
+
+
+/* #linkedin{
+  -webkit-filter: invert(100%); 
+  
+} */
+
+/* scroll bar */ 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(209, 209, 209); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:rgb(185, 185, 185); 
+} 
+
+/* Main section */
+
+.Main-body{
+  margin-left: 14%;
+  margin-right: 9%;
+  background-color: transparent;
+  height: 230vh;
+  padding-left: 11%;
+  padding-right: 11%;
+  padding-top: 4%;
+
+}
+
+.Main-body > * {
+  height: 40%;
+  margin-bottom: 20%;
+  margin-top: 20%;
+  padding-top: 1%;
+  
+}
+
+
+.textc {
+  color: #2c2c2c;
+  font-size: 1em;
+}
+
+/* Home Page */
+
+#Home-Page {
+ margin-top: 30%;
+}
+
+#main-title{
+  font-size: 8em;
+  font-family: 'Saira Condensed', sans-serif !important;
+
+}
+
+#last-name{
+  color:#ffbc04;
+}
+
+.subtitle{
+  color:grey;
+}
+.subtitle2{
+  color:rgb(212, 212, 212);
+  text-decoration:dotted;
+}
+
+.title {
+  font-size:2vmax;
+  color:#000000;
+  font-family: 'Saira Condensed', sans-serif !important;
+}
+
+/* About me */
+#About-me {
+  border-top: 2px solid rgb(252, 203, 69);
+  border-bottom: 2px solid rgb(252, 203, 69);
+}
+
+#Photo{
+  position:absolute;
+  height:70%;
+  width: 25%;
+}
+
+
+
+/* Projects */
+
+#Projects{
+ 
+}
+
+#Projects-Container {
+  display: grid;
+  gap: 3px;
+  grid-template-columns: repeat(3, 33%);
+
+
+}
+
+.Project-Items{
+  background-color:rgb(255, 217, 112);
+  transition: transform .2s;
+  margin:20px;
+  border-radius: 9px;
+  text-decoration:none;
+  max-height: 300px;
+  max-width: 300px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.Project-Items:nth-child(4){
+  visibility: hidden;
+}
+
+.Project-Items:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 5px #ffffff;
+}
+
+
+
+
+/* Contact Me*/
+#Contact {
+  border-top: 2px solid rgb(252, 203, 69);
+  height: 35%;
+  
+}
+
+#Contact.title{
+  text-align: center;
+}
+
+/* .feedback-input {
+  color:rgb(0, 0, 0);
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid rgb(252, 203, 69);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid rgb(252, 203, 69) }
+
+textarea {
+  height: 150px;image.pngimage.png
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:rgb(255, 211, 88);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:rgb(255, 195, 31) }
+
+*/
+
+@media screen and (max-width: 1280px ),
+       screen and (max-height: 800px) {
+   
+  #sidenav{
+    position: absolute;
+    left: -15%;
+  }
+  .Main-body{
+    margin-left: 0%;
+  }
+  .Project-Items{
+    background-color:rgb(252, 203, 69);
+    transition: transform .2s;
+    margin:20px;
+    border-radius: 9px;
+    text-decoration:none;
+    min-height:100px;
+    min-width:100px;
+    max-height: 200px;
+    max-width: 200px;
+  
+  
+  }
+
+  }
+
+
