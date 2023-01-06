@@ -1,0 +1,77 @@
+/* Global */
+body{
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.container-sm{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+
+}
+
+.fade-in {
+  opacity: 0;
+}
+
+/* When elements are in scroll view*/
+.fade-in.appear {
+  opacity:1;
+  transition: opacity 1s ease-in-out;
+}
+
+
+/*nav bar */
+.navbar{
+  box-shadow: 2px 2px 8px #dddddd;
+}
+
+/*Home Page */
+
+#Home{
+  padding-top: 40vh;
+  padding-bottom: 35vh;
+
+}
+.main-title{
+  font-size:7vw;
+  font-family: 'Saira Condensed', sans-serif !important;
+  font-weight: 700;
+ 
+  
+}
+
+.main-title span{
+  color: #f7c439;
+}
+
+.title{
+  padding-bottom: 10vw;
+}
+
+/*About me */
+.bg-white{
+  box-shadow: 2px 2px 8px #dddddd;
+}
+.bg-white > div > h1> span{
+  border:1px solid #ffc107;
+}
+
+/*Projects */
+
+/* #Projects > div> div {
+  background-color: rgb(56, 86, 90);
+  border-radius: 20px;
+}
+*/
+
+/*Footer/Contact */
+
+#Contact{
+  background-color:  #f7c439;
+  padding-top: 10vh;
+
+}
+
+#Contact > div > div > h1{
+ 
+}
